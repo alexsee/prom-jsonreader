@@ -1,5 +1,5 @@
 <ivy-module version="2.0">
-    <info organisation="alexsee" module="prom-jsonreader" revision="1.0.0">
+    <info organisation="alexsee" module="prom-jsonreader" revision="v1.0">
         <description>
             Version VERSION
         </description>
