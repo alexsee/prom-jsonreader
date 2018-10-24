@@ -67,7 +67,7 @@ public class JsonParser {
         JsonEventLog log = mapper.readValue(reader, JsonEventLog.class);
 
         // convert traces
-        for (JsonCase jtrace : log.getCases()) {
+        for (JsonCase jtrace : log.getTraces()) {
             XTrace trace = factory.createTrace();
 
             // concept name

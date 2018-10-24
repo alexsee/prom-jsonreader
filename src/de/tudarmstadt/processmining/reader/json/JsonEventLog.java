@@ -23,14 +23,14 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class JsonEventLog {
 
-	private List<JsonCase> cases;
+	private List<JsonCase> traces;
 
-	public List<JsonCase> getCases() {
-		return cases;
+	public List<JsonCase> getTraces() {
+		return traces;
 	}
 
-	public void setCases(List<JsonCase> cases) {
-		this.cases = cases;
+	public void setTraces(List<JsonCase> traces) {
+		this.traces = traces;
 	}
 
 }
